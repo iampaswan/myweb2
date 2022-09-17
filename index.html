@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, intial scale 1.0">
+    <title></title>
+    <style>
+
+        body{
+            margin: 0px 0px;
+        }
+         .container {
+          position: relative;
+        }
+        .img1{
+            float: left;
+            padding: 10px;
+            width: 20px;
+            height: 20px;       
+        }
+        .img1:hover{
+            cursor: pointer;
+        }
+        .img2{
+            float: right;
+            padding: 10px;
+            width: 20px;
+            height: 20px;
+        }
+        .img2:hover{
+            cursor: pointer;
+        }
+        .img3{
+            float:right;
+            padding: 10px;
+            width: 20px;
+            height: 20px;
+        }
+        .img3:hover{
+            cursor: pointer;
+        }
+        .img4{
+            float:right;
+            padding: 10px;
+            width: 20px;
+            height: 20px;
+        }
+        .img4:hover{
+            cursor: pointer;
+        }
+        .img5{
+            float:right;
+            padding: 10px;
+            width: 20px;
+            height: 20px;
+        }
+        .img5:hover{
+            cursor: pointer;
+        }
+        .img6{
+        float: left;
+            padding: 10px;
+            width: 20px;
+            height: 10px;
+        }
+
+        .box {
+            border: 2px;
+            width: 405px;
+            height: 648px;
+            display: inline-block;
+
+        }
+        .box a{
+            text-decoration: none;
+            color: white;
+            
+        }
+        .box a:hover{
+            color: rgb(55, 55, 148);
+            
+        }
+
+        #Box1 {
+            background: url('C:/Users/krish/OneDrive/Desktop/New folder/7.jpg');
+            background-color: skyblue;
+            height: 1050px;
+            text-align: center;
+            position: relative;
+        }
+        #Box2 {
+            background: url('C:/Users/krish/OneDrive/Desktop/New folder/8.jpg');
+            background-color: palevioletred;
+            position: relative;
+        }
+
+        #Box3 {
+            background: url('C:/Users/krish/OneDrive/Desktop/New folder/9.jpg');
+            background-color: skyblue;
+            position: relative;
+        
+        }
+
+        #Box4 {
+            background: url('C:/Users/krish/OneDrive/Desktop/New folder/10.jpg');
+            background-color: blanchedalmond;
+            position: relative;
+        }
+
+        #Box5 {
+            background: url('C:/Users/krish/OneDrive/Desktop/New folder/11.jpg');
+            background-color: rgb(235, 140, 96);
+            position: relative;
+        }
+
+        #Box6 {
+            background: url('C:/Users/krish/OneDrive/Desktop/New folder/12.jpg');
+            background-color: rgb(197, 150, 241);
+            position: relative;
+        }
+
+        #Box7 {
+            background: url('C:/Users/krish/OneDrive/Desktop/New folder/13.jpg');
+            background-color: rgb(209, 23, 23);
+            position: relative;
+        }
+
+        #Box8 {
+            background: url('C:/Users/krish/OneDrive/Desktop/New folder/14.jpg');
+            background-color: rgb(123, 209, 209);
+            position: relative;
+            height: 250px;
+        }
+
+        #Box9 {
+            background-color: rgb(12, 2, 2);
+            position: relative;
+            height: 330px;
+            color: white;
+            
+        
+        }
+
+
+        .btn1 {
+
+            margin: 57px;
+            background-color: rgb(240, 14, 14);
+            padding: 15px;
+            border: none;
+            cursor: pointer;
+            font-size: 25px;
+            border-radius: 28px;
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+
+        .btn1:hover {
+            color: white;
+            background-color: black;
+
+        }
+
+        .btn2 {
+            width: 350px;
+            margin: 29px 29px;
+            background-color: rgb(65, 65, 235);
+            padding: 15px;
+            border: none;
+            cursor: pointer;
+            font-size: 25px;
+            border-radius: 28px;
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+        .btn2:hover {
+            color: white;
+            background-color: black;
+
+        }
+
+        .btn3 {
+            width: 350px;
+            margin: 29px 29px;
+            background-color: rgb(236, 75, 46);
+            padding: 15px;
+            border: none;
+            cursor: pointer;
+            font-size: 25px;
+            border-radius: 28px;
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+        .btn3:hover {
+            color: white;
+            background-color: black;
+
+        }
+
+        .btn4 {
+            width: 350px;
+            margin: 29px 29px;
+            background-color: rgb(19, 81, 216);
+            padding: 15px;
+            border: none;
+            cursor: pointer;
+            font-size: 25px;
+            border-radius: 28px;
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+        .btn4:hover {
+            color: white;
+            background-color: black;
+
+        }
+
+        .btn5{
+            width: 350px;
+            margin: 200px 29px;
+            background-color:black;
+            padding: 18px;
+            border: none;
+            cursor: pointer;
+            font-size: 25px;
+            border-radius: 28px;
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+        .btn5:hover {
+            color: rgb(211, 61, 61);
+            background-color:pink;
+
+        }
+
+        .btn6{
+            width: 110px;
+            height: 25px;
+            background-color:rgb(75, 204, 236);
+            padding: 2px;
+            border: none;
+            cursor: pointer;
+            font-size: 15px;
+            text-align: center;
+            border-radius: 12px;
+            color:black;
+            font-family:Arial, Helvetica, sans-serif;
+
+        }
+        .btn6:hover {
+            color: rgb(115, 53, 185);
+            background-color:pink;
+
+        }
+        .inputbox{
+            color: black;
+        }
+    </style>
+
+<body>
+    <div class="container">
+        <div class="box" id="Box1">
+        
+            <img src='C:/Users/krish/OneDrive/Desktop/New folder/1.jpg' alt="" class="img1"> 
+            <img src='C:/Users/krish/OneDrive/Desktop/New folder/2.png' alt="" class="img2">
+            <img src='C:/Users/krish/OneDrive/Desktop/New folder/3.png' alt="" class="img3">
+        
+        
+            <br><br><hr>
+            <h2>About Diana</h2><br><br>
+            A plateform that lools out for you<br><br>
+
+            Diana empowers you to understand hoe your body works so you can look and feel your best.
+            <br>
+            <hr>
+
+            Our Philosophy<br><br>
+
+            Sustainable wellness is a big-picture, inside out approach<br><br>
+            Diana iis on a mission to create thoughtful, science-backened solutons
+            for women who want to make informed decisions about their heath and wellness.<br><br>
+
+            That's why we have created an integrated ecosystem of:<br><br><br><br><br><br><br><br>
+
+            Consciously formulated products that deliver feel-good results fast<br><br><br><br><br><br><br>
+
+            In-app mood and period tracking options that help you cultivate a deeper connection with your
+            mind and body<br><br><br><br><br><br><br><br><br><br>
+
+            In-app consultation portals that connect you with compassionate wellness experts<br><br>
+
+            Consider us your nerdy ally who spends their time perfecting products that work because they want you
+            to feel your best everyday.
+        </div>
+        <div class="box" id="Box2">
+            <br>
+            <h2>What makes us different?</h2><br>
+
+            Reimaginnig and rewiring self-care<br><br><br>
+
+            You care about conscious consumption, and so do we<br><br>
+
+            When it comes to your health, "good enough" is not good enough. We are here to flip the script on that
+            narrative because you deserve the best<br><br>
+
+            We collabrate with researchers and doctors to
+            We collabrate with researchers and doctors to<br>
+            <ul>
+                <li>Help you get granluar about your health and self-care with personalized insights, and</li><br>
+                <li>Equip you with simple, sustainable products that get the job done</li>
+            </ul><br>
+
+            No-to-the-moon-and-back claims in this neck of the woods.<br><br>
+
+            We're just solving real problems for real peoples here.
+        </div>
+        <div class="box" id="Box3">
+            <br>
+            <h2>Liberate your everyday wellness</h2><br>
+
+            Shop our self-care products<br><br>
+
+            Gentle formulations thoughfully engineered by the specialist researchers and doctors to simplify
+            your self-care and get result fast. And, we always list our ingredents- so what you see is what you get.
+
+            <button class="btn1">Upgrade your self-care</button>
+            #NoNasties,we promise!
+
+        </div>
+        <div class="box" id="Box4">
+            <br>
+            <h1>Track your mood</h1><br>
+            All days and moods are not made equal. But we can only improve what we measure.
+            Track your mood and vitals(including skin and hair health) so you can take better
+            care of yourself every day.<br>
+            <button class="btn2">Track you mood on the app</button>
+
+        </div>
+        <div class="box" id="Box5">
+            <br>
+            <h1>Track your period</h1><br>
+            Stay in the know with reliable Al-based and science-backed period, ovulation, and PMS predictions.
+            The intutive design makes tracking your cycle effortless and helps you stay on top your monthly data.
+            <br>
+            <button class="btn3">Track you period on the app</button>
+        </div>
+        <div class="box" id="Box6">
+            <br>
+            <h1>Consult with wellness experts</h1>
+            <br>
+            Set up health consultations with experienced doctors and therapists on our 
+            app. Simply select a servies, answer a few questions, and we'll connect you to 
+            someone who is the right-fit-for you.<br>
+            <button class="btn4">Get a consultation</button>
+        </div>
+        <div class="box" id="Box7">
+            <br>
+            <h1>Get you personlaized period box</h1><br><br><br><br><br><br><br>
+            Tailor your monthly box of organic period products without the organic price tag (no pink taxing here.)
+            Get it delivered to your doorstep in sustainable packaging and track your subscription on our app.<br>
+            <button class="btn5">Create your box on the app   ></button>
+        </div>
+        <div class="box" id="Box8">
+            <br>
+            <h1>With Diana, you're in control of your health, your every day, and your story.</h1><br>
+        </div>
+        <div class="box" id="Box9">
+            <br>
+            <img src='C:/Users/krish/OneDrive/Desktop/New folder/4.png' alt="" class="img4">
+            <img src="C:/Users/krish/OneDrive/Desktop/New folder/5.png" alt="" class="img5">
+            <br><br><br><br><br>
+                <a href="">Product ></a><br>
+                <a href="">Our Science ></a><br>
+                <a href="">Vision & Mission ></a><br>
+                <a href="">About Us ></a>
+            <br><br><br><hr>
+            Subscribe to our Newsletter<br>
+            <div class="inputbox">
+                <input type="text" name="email" id="email" placeholder="Enter your Email">
+                <button class="btn6"><img src='C:/Users/krish/OneDrive/Desktop/New folder/6.jpg' alt="" class="img6">
+                Activate</button>
+            </div>
+            
+        </div>
+        
+
+    </div>
+
+</body>
+</head>
+
+</html>
